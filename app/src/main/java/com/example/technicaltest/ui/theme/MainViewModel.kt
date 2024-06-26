@@ -1,6 +1,5 @@
+// MainViewModel.kt
 package com.example.technicaltest.ui.theme
-
-
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
