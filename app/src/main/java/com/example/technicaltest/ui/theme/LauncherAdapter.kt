@@ -24,6 +24,7 @@ class LaunchAdapter(private val onClick: (Launch) -> Unit) :
         private val binding: ItemLaunchBinding,
         private val onClick: (Launch) -> Unit
     ) : RecyclerView.ViewHolder(binding.root) {
+
         fun bind(launch: Launch) {
             binding.launch = launch
             binding.root.setOnClickListener { onClick(launch) }
